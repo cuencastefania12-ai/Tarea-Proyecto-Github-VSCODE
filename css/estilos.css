@@ -1,0 +1,165 @@
+```css
+/* Configuración general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f0ff;
+    color: #333;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Encabezado */
+
+header {
+    background: #7b4bc4;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+
+/* Contenido principal */
+
+main {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+
+/* Caja principal */
+
+.contenedor {
+    background: white;
+    width: 100%;
+    max-width: 550px;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+
+    text-align: center;
+}
+
+.contenedor h2 {
+    color: #7b4bc4;
+    margin-bottom: 15px;
+}
+
+.descripcion {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+
+/* Ocultamos el input original */
+
+input[type="file"] {
+    display: none;
+}
+
+
+/* Botón seleccionar */
+
+.boton {
+    display: inline-block;
+
+    background: #7b4bc4;
+    color: white;
+
+    padding: 14px 25px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background: #5f329f;
+    transform: scale(1.05);
+}
+
+
+/* Información del archivo */
+
+.informacion {
+    margin-top: 30px;
+
+    padding: 20px;
+
+    background: #f4f0ff;
+
+    border-radius: 12px;
+
+    text-align: left;
+}
+
+.informacion p {
+    margin: 8px 0;
+}
+
+
+/* Botón eliminar */
+
+.eliminar {
+    margin-top: 20px;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #e74c3c;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+.eliminar:hover {
+    background: #c0392b;
+}
+
+
+/* Pie de página */
+
+footer {
+    background: #333;
+    color: white;
+
+    text-align: center;
+
+    padding: 15px;
+}
+```

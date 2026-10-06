@@ -1,0 +1,72 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi página web</title>
+
+    <!-- Conexión con CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>📁 Mi página web</h1>
+        <p>Seleccioná un archivo desde tu computadora</p>
+    </header>
+
+    <main>
+
+        <section class="contenedor">
+
+            <h2>Subir un archivo</h2>
+
+            <p class="descripcion">
+                Elegí un archivo de tu computadora para mostrar su información.
+            </p>
+
+            <!-- Botón para seleccionar archivo -->
+            <label for="archivo" class="boton">
+                📂 Seleccionar archivo
+            </label>
+
+            <input type="file" id="archivo">
+
+            <!-- Información del archivo -->
+            <div id="informacion" class="informacion">
+
+                <p id="nombreArchivo">
+                    No seleccionaste ningún archivo.
+                </p>
+
+                <p id="tipoArchivo"></p>
+
+                <p id="tamanoArchivo"></p>
+
+            </div>
+
+            <!-- Botón para eliminar -->
+            <button id="eliminar" class="eliminar">
+                🗑️ Quitar archivo
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Mi página web © 2026</p>
+    </footer>
+
+
+    <!-- Conexión con JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+```
